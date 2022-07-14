@@ -26,7 +26,7 @@ To overcome from this situation, we can use `Sealed Secrets`
 
 </br>
 
-### How sealed-secret helps us
+### How sealed-secrets helps us
 ---------------------------------
 
 1. We install the sealed-secret controller in our kubernetes cluster, by default in kube-system namespace. This controller has one public certificate and a private key.
@@ -54,7 +54,7 @@ To overcome from this situation, we can use `Sealed Secrets`
 
 </br>
 
-### Create the sealed-secret controller
+### Create the sealed-secrets controller
 ---------------------------------------
 
 This repo contains one yaml file which has all the required components to create the sealed-secrets-controller.
@@ -80,7 +80,7 @@ if you want, you can keep this certificate in some file.
 
 </br>
 
-### Createing kubernetes secret
+### Creating kubernetes secret
 --------------------------------
 
 Now we can create one kubernetes secret for testing purpose. 
@@ -99,7 +99,7 @@ Now we can create one kubernetes secret for testing purpose.
 
 </br>
 
-### Sealed (Encrypt) the k8s secret using sealed-secrets
+### Seal (Encrypt) the k8s secret using sealed-secrets
 ----------------------------------------------------------
 
 Now we are going to seal our secret using the sealed-secrets-controller and created a sealed-secret.yaml file.
@@ -161,5 +161,5 @@ IMP:
 
 Reference-
 
-https://github.com/bitnami-labs/sealed-secrets
-https://plugins.jenkins.io/kubernetes-credentials-provider/#documentation
+- https://github.com/bitnami-labs/sealed-secrets
+- https://plugins.jenkins.io/kubernetes-credentials-provider/#documentation
